@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.15">
+    <root id="1">
+      <ServerVersion>10.8</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="2019-05-17">
+      <ObjectId>17061</ObjectId>
+      <StateNumber>1192</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="3" parent="1" name="2019-05-20-am-ic">
+      <ObjectId>17083</ObjectId>
+      <StateNumber>1224</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="4" parent="1" name="2019-05-20-cw-am">
+      <ObjectId>17105</ObjectId>
+      <StateNumber>1248</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="5" parent="1" name="2019-05-20-pm-cw">
+      <ObjectId>17127</ObjectId>
+      <StateNumber>1279</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="6" parent="1" name="dacoj9jo4n4226">
+      <ObjectId>16813</ObjectId>
+      <StateNumber>1015</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="7" parent="1" name="dvdrental">
+      <ObjectId>17053</ObjectId>
+      <StateNumber>1179</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="8" parent="1" name="mini-project">
+      <ObjectId>17137</ObjectId>
+      <StateNumber>1298</StateNumber>
+      <Owner>student</Owner>
+      <IntrospectionStateNumber>1321</IntrospectionStateNumber>
+      <Visible>1</Visible>
+    </database>
+    <database id="9" parent="1" name="nba">
+      <ObjectId>16933</ObjectId>
+      <StateNumber>1102</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="10" parent="1" name="nothing_to_see_here">
+      <ObjectId>16386</ObjectId>
+      <StateNumber>557</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="11" parent="1" name="postgres">
+      <ObjectId>13053</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <StateNumber>553</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>1299</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Relations>sequence|table|16395|16397|1
+sequence|table|16507|16509|1
+sequence|table|16515|16517|1
+</Relations>
+    </database>
+    <database id="12" parent="1" name="sql-aggregates-cw">
+      <ObjectId>16454</ObjectId>
+      <StateNumber>639</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="13" parent="1" name="sql-join-cw">
+      <ObjectId>16499</ObjectId>
+      <StateNumber>684</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="14" parent="1" name="sql-join-lecture">
+      <ObjectId>16476</ObjectId>
+      <StateNumber>666</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="15" parent="1" name="sql-outer-join-cw">
+      <ObjectId>16523</ObjectId>
+      <StateNumber>725</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="16" parent="1" name="sql-outer-join-ic">
+      <ObjectId>16506</ObjectId>
+      <StateNumber>714</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="17" parent="1" name="sql-review1-cw">
+      <ObjectId>16603</ObjectId>
+      <StateNumber>797</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="18" parent="1" name="sql-review1-extra">
+      <ObjectId>16797</ObjectId>
+      <StateNumber>955</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="19" parent="1" name="sql-review1-lecture">
+      <ObjectId>16540</ObjectId>
+      <StateNumber>739</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="20" parent="1" name="sql_aggregate_ic">
+      <ObjectId>16432</ObjectId>
+      <StateNumber>614</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <database id="21" parent="1" name="student">
+      <ObjectId>16385</ObjectId>
+      <StateNumber>556</StateNumber>
+      <Owner>student</Owner>
+    </database>
+    <role id="22" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="23" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="24" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="25" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="26" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="27" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="28" parent="1" name="student">
+      <ObjectId>16384</ObjectId>
+      <Inherit>1</Inherit>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="29" parent="8" name="information_schema">
+      <ObjectId>12762</ObjectId>
+      <StateNumber>353</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="30" parent="8" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>350</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="31" parent="8" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+      <StateNumber>113</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="32" parent="8" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <StateNumber>1</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="33" parent="8" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+      <StateNumber>113</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="34" parent="8" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>351</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>1322</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="35" parent="8" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="36" parent="8" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="37" parent="8" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="38" parent="8" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="39" parent="8" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="40" parent="8" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="41" parent="8" name="plpgsql">
+      <ObjectId>13039</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>505</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <table id="42" parent="34" name="game">
+      <ObjectId>17163</ObjectId>
+      <Owner>student</Owner>
+      <StateNumber>1316</StateNumber>
+    </table>
+    <table id="43" parent="34" name="goal">
+      <ObjectId>17154</ObjectId>
+      <Owner>student</Owner>
+      <StateNumber>1312</StateNumber>
+    </table>
+    <column id="44" parent="42" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1316</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="45" parent="42" name="mdate">
+      <Position>2</Position>
+      <DataType>varchar(12)|0s</DataType>
+      <StateNumber>1316</StateNumber>
+      <DefaultExpression>NULL::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="46" parent="42" name="stadium">
+      <Position>3</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>1316</StateNumber>
+      <DefaultExpression>NULL::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="47" parent="42" name="team1">
+      <Position>4</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>1316</StateNumber>
+      <DefaultExpression>NULL::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="48" parent="42" name="team2">
+      <Position>5</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>1316</StateNumber>
+      <DefaultExpression>NULL::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="49" parent="43" name="matchid">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1312</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="50" parent="43" name="teamid">
+      <Position>2</Position>
+      <DataType>varchar(3)|0s</DataType>
+      <StateNumber>1312</StateNumber>
+      <DefaultExpression>NULL::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="51" parent="43" name="player">
+      <Position>3</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>1312</StateNumber>
+      <DefaultExpression>NULL::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="52" parent="43" name="gtime">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1312</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="53" parent="43" name="goal_pkey">
+      <ObjectId>17161</ObjectId>
+      <StateNumber>1312</StateNumber>
+      <ColNames>matchid
+gtime</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="54" parent="43" name="goal_pkey">
+      <ObjectId>17162</ObjectId>
+      <StateNumber>1312</StateNumber>
+      <ColNames>matchid
+gtime</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>goal_pkey</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

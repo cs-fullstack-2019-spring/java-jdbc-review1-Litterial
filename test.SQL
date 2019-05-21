@@ -1,0 +1,1 @@
+SELECT teamid,teamid from goal;
